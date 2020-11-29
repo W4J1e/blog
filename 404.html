@@ -1,18 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title></title>
-</head>
- <script language="javascript">
-var domain = "w4j1e.js.org";
-var src = window.location.href;
-var prtc = src.substring(0, src.indexOf(':'));
-var target = src.substring(src.indexOf('/', src.indexOf(':') + 3));
-window.location.href = prtc + "://" + domain + target;
-location.href=prtc + "://" + domain + target;
+<script src="https://cdn.bootcss.com/purl/2.3.1/purl.min.js"></script>
+ 
+<script>
+var url = purl();
+if (url.attr('host') == 'ihtc.cc') {
+    var old_url = url.attr('source');
+    var new_url = old_url.replace('ihtc.cc', "ihtcboy.com");
+    window.location.replace(new_url); 
+}else if (url.attr('host') == 'w4j1e.xyz') {
+    var old_url = url.attr('source');
+    var new_url = old_url.replace('w4j1e.xyz', "w4j1e.js.org");
+    window.location.replace(new_url);
+}else {
+    window.location.href="https://w4j1e.js.org";
+}
+    
 </script>
-<body>
- <h1></h1>
-</body>
-</html>
