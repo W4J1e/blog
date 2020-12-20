@@ -1,0 +1,1 @@
+document.writeln("<iframe width=\'240\' height=\'25\' frameborder=\'0\' scrolling=\'no\' hspace=\'0\' src=\'https://i.tianqi.com/?c=code&id=34\'></iframe>");
