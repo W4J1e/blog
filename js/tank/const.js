@@ -8,9 +8,9 @@ var SCREEN_HEIGHT = 448;//屏幕高
 
 /**************图片资源*****************/
 var MENU_IMAGE = new Image();
-MENU_IMAGE.src = "images/menu.gif";
+MENU_IMAGE.src = "https://cdn.jsdelivr.net/gh/w4j1e/blog@master/js/tank/menu.gif";
 var RESOURCE_IMAGE = new Image();
-RESOURCE_IMAGE.src = "images/tankAll.gif";
+RESOURCE_IMAGE.src = "https://cdn.jsdelivr.net/gh/w4j1e/blog@master/js/tank/tankAll.gif";
 
 
 /**************各个图块在图片中的位置*****************/
