@@ -1,3 +1,14 @@
-<script language=javascript>
-    this.location = "https://www.hin.cool";
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting</title>
+  <link rel="canonical" href=" https://www.hin.cool "/>
+  <meta http-equiv="refresh" content="0;url= https://www.hin.cool " />
+</head>
+<body>
+  <h1>Redirecting...</h1>
+  <a href=" https://www.hin.cool ">Click here if you are not redirected.<a>
+  <script>location=' https://www.hin.cool '</script>
+</body>
+</html>
