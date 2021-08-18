@@ -1,2 +1,2 @@
 # blog
-redirect to the main web and save javascript
+千万不要再手贱删除了！这里存放了一些静态资源！
